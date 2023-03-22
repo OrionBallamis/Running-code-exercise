@@ -266,12 +266,12 @@ console.log(`New Total: ${newTotal}`);
 */
 
 // CODE HERE
-
-let savings = 100 - (newTotal / total * 100);
+let savings = total - newTotal;
+let percentsaved = 100 - (newTotal / total * 100);
 
 console.log(`Savings: ${savings}`);
 
-console.log(`Percent saved: ${savings}%`);
+console.log(`Percent saved: ${percentsaved}%`);
 
 
 
